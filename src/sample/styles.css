@@ -1,0 +1,50 @@
+.header {
+    -fx-background-color: #23252B;
+    -fx-padding: 10px;
+}
+.header Label {
+    -fx-font-family: "Segoe UI";
+    -fx-font-weight: 800;
+    -fx-font-size: 30px;
+    -fx-text-fill: #FF6F00;
+}
+.popular {
+    -fx-background-color: #272727;
+    -fx-padding: 10px;
+    -fx-spacing: 15px;
+}
+.title:hover {
+    -fx-scale-y: 1.05;
+    -fx-scale-x: 1.05;
+    -fx-effect: dropshadow(two-pass-box, #2e3131, 3 , 0.0, 5, 5);
+}
+.label-main {
+    -fx-font-family: "Segoe UI";
+    -fx-font-weight: 800;
+    -fx-font-size: 20px;
+    -fx-text-fill: #FF6F00;
+    -fx-text-alignment: left;
+}
+.label-sub {
+    -fx-font-family: "Segoe UI";
+    -fx-font-weight: 800;
+    -fx-font-size: 20px;
+    -fx-text-fill: #EEEEEE;
+    -fx-text-alignment: left;
+}
+
+.label-big-blue {
+    -fx-font-family: "Segoe UI";
+    -fx-font-weight: 800;
+    -fx-font-size: 40px;
+    -fx-text-fill: #2CBDBB;
+    -fx-text-alignment: center;
+}
+
+.your-section {
+    -fx-text-alignment: center;
+    -fx-padding: 12px;
+}
+.root {
+    -fx-background-color: #2F7C7F;
+}
