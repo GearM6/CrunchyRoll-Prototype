@@ -44,6 +44,11 @@
 .your-section {
     -fx-text-alignment: center;
     -fx-padding: 12px;
+    -fx-background-color: #2F7C7F;
+}
+.scroll-pane .scroll-bar:vertical {
+    -fx-block-increment: 50;
+    -fx-unit-increment: 50;
 }
 .root {
     -fx-background-color: #2F7C7F;
